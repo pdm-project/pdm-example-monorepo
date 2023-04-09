@@ -20,6 +20,7 @@ summary = "Cross-platform colored terminal text."
 name = "pkg-core"
 version = "0.1.0"
 requires_python = ">=3.8"
+editable = true
 path = "./packages/pkg-core"
 summary = "Core utilities"
 dependencies = [
@@ -30,6 +31,7 @@ dependencies = [
 name = "pkg-first"
 version = "0.1.0"
 requires_python = ">=3.8"
+editable = true
 path = "./packages/pkg-first"
 summary = "First package"
 dependencies = [
@@ -40,6 +42,7 @@ dependencies = [
 name = "pkg-second"
 version = "0.1.0"
 requires_python = ">=3.8"
+editable = true
 path = "./packages/pkg-second"
 summary = "Second package"
 dependencies = [
@@ -48,8 +51,8 @@ dependencies = [
 
 [metadata]
 lock_version = "4.2"
-groups = ["default"]
-content_hash = "sha256:8a2700a5403f8eb23927e0ea3902abff24147569c4164155b8302fa384688d38"
+groups = ["default", "dev"]
+content_hash = "sha256:08e744a9dafde75a9bf13ccee3213b74f85e5256bb2f06ad2f37054e565283d8"
 
 [metadata.files]
 "click 8.1.3" = [
