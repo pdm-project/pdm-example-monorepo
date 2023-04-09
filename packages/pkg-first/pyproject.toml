@@ -5,7 +5,7 @@ description = "First package"
 authors = [
     {name = "John Doe", email = "johndoe@example.org"},
 ]
-dependencies = ["pkg-core @ file:///${PROJECT_ROOT}/../pkg-core"]
+dependencies = ["pkg-core[cli] @ file:///${PROJECT_ROOT}/../pkg-core"]
 requires-python = ">=3.8"
 readme = "README.md"
 license = {text = "MIT"}

@@ -7,10 +7,14 @@ description = "Core utilities"
 authors = [
     {name = "John Doe", email = "johndoe@example.org"},
 ]
-dependencies = ["click"]
+dependencies = []
 requires-python = ">=3.8"
 readme = "README.md"
 license = {text = "MIT"}
+
+[project.optional-dependencies]
+cli = ["click"]
+http = ["urllib3"]
 
 [build-system]
 requires = ["pdm-backend"]
