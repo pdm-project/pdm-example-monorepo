@@ -9,7 +9,7 @@ This is an example of a monorepo managed by [PDM](https://pdm.fming.dev).
 - `packages/pkg-second`
 
 
-## Note about `pdm instal
+## Note about `pdm install`
 
 
 If you change the dependencies in one of the subprojects, the `pdm install` command will not detect that the lock file needs to be re-generated.
